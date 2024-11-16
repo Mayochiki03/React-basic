@@ -1,9 +1,6 @@
-
-const Item = () => {
-    const name = "เดินห้างซื้อของ"
-    const amount = 5000
+const Item = ({title,amount}) => {
     return (
-        <li>{name}<span>-{amount}</span></li>
+        <li>{title}<span>{amount}</span></li>
          
     );
 
